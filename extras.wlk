@@ -1,6 +1,7 @@
 import wollok.game.*
 import artefactos.*
+import capos.*
 
-object rolando {
+object castilloDePiedra {
     
 }
