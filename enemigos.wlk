@@ -3,8 +3,20 @@ import gameCapos.*
 import artefactos.*
 import extras.*
 import managerGame.*
-import enemigos.*
+import capos.*
 
-object rolando {
+object enemigo {
+
+}
+
+object caterina {
+
+}
+
+object archibaldo {
+
+}
+
+object astra {
     
 }

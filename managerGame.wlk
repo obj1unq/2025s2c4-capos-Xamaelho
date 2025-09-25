@@ -1,10 +1,12 @@
 import wollok.game.*
 import gameCapos.*
+import capos.*
 import artefactos.*
 import extras.*
-import managerGame.*
 import enemigos.*
 
-object rolando {
-    
+object manager {
+    method inicializar(){
+
+    }
 }

@@ -1,8 +1,11 @@
 import wollok.game.*
+import managerGame.*
 import capos.*
 import artefactos.*
+import extras.*
+import enemigos.*
 
-program pepitaGame {
+program caposGame {
 	game.title("Capos") 	//Valor por defecto "Wollok Game"
 	game.height(10) 		//valor por defecto 5
 	game.width(10) 			//valor por defecto 5
