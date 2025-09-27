@@ -1,1 +1,27 @@
-r
+import wollok.game.*
+import capos.*
+import gameCapos.*
+import artefactos.*
+import extras.*
+import managerGame.*
+import enemigos.*
+
+describe "Test sobre Rolando y los artefactos que lleva en inventario." {
+    method initialize() {
+        // Acciones de inicializacion del juego
+    }
+    test "rolando encuentra objetos hasta que ya no puede tomar ninguno" {
+        //   Rolando se dirige a la ubicacion de la espada del destino
+        //   Por colision toma la espada
+        assert.equals([espadaDelDestino], rolando.artefactosEnInventario())
+        //   Rolando se dirige a la ubicacion de el libro de hechizos
+        //   Por colision toma la libro
+        assert.equals([espadaDelDestino, libroDeHechizos], rolando.artefactosEnInventario())
+        //   Rolando se dirige a la ubicacion de el collar divino
+        //   No lo agarra porque ya tiene el inventario lleno
+        assert.equals(2, rolando.artefactosEnInventario().size())
+        assert.equals(false, rolando.hayEspacioEnInventario())
+    }
+
+
+}
