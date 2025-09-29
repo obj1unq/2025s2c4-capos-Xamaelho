@@ -1,5 +1,5 @@
 import wollok.game.*
-import managerGame.*
+import gameManager.*
 import capos.*
 import artefactos.*
 import extras.*
@@ -13,7 +13,7 @@ program caposGame {
 	//search assets in assets folder, for example, for the background
 	//Valor por defecto game.ground("ground.png")
 
-	game.boardGround("fondo2.jpg")
+	game.boardGround("background.jpg")
 	
 	manager.inicializar()
 

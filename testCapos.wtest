@@ -3,7 +3,7 @@ import capos.*
 import gameCapos.*
 import artefactos.*
 import extras.*
-import managerGame.*
+import gameManager.*
 import enemigos.*
 
 describe "Test sobre Rolando y los artefactos que lleva en inventario." {

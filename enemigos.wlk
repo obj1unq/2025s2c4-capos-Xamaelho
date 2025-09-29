@@ -2,7 +2,7 @@ import wollok.game.*
 import gameCapos.*
 import artefactos.*
 import extras.*
-import managerGame.*
+import gameManager.*
 import capos.*
 
 object enemigo {
@@ -10,28 +10,28 @@ object enemigo {
 }
 
 object caterina {
-    var property position = game.at(0,1)
+    //var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "caterina.png"
     }
 
 }
 
 object archibaldo {
-    var property position = game.at(0,1)
+    //var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "archibaldo.png"
     }
 
 }
 
 object astra {
-    var property position = game.at(0,1)
+    //var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "astra.png"
     }
     
 }

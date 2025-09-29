@@ -2,7 +2,7 @@ import wollok.game.*
 import gameCapos.*
 import artefactos.*
 import extras.*
-import managerGame.*
+import gameManager.*
 import enemigos.*
 
 object rolando {
@@ -12,7 +12,7 @@ object rolando {
     const vivienda = castilloDePiedra
 
     method image(){
-        return "foto.png"
+        return "rolando.png"
     }
 
     method artefactosEnInventario() = inventario
@@ -30,5 +30,6 @@ object rolando {
     method levantarArtefacto(artefacto) {
         inventario.add(artefacto)
     }
+    
 
 }

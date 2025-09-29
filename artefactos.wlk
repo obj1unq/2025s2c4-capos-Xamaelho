@@ -1,32 +1,32 @@
 import wollok.game.*
 import gameCapos.*
-import managerGame.*
+import gameManager.*
 import capos.*
 import extras.*
 
 object espadaDelDestino {
-    var property position = game.at(0,1)
+    // var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "espada.png"
     }
 
 }
 
 object libroDeHechizos {
-    var property position = game.at(0,1)
+    //var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "libro.png"
     }
 
 }
 
 object collarDivino {
-    var property position = game.at(0,1)
+    //var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "collar.png"
     }
 
 }
@@ -35,7 +35,7 @@ object armaduraDeAceroValyrio {
     var property position = game.at(0,1)
 
     method image(){
-        return "foto.png"
+        return "armadura.png"
     }
     
 }
