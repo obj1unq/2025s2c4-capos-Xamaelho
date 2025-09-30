@@ -6,7 +6,7 @@ import gameManager.*
 import enemigos.*
 
 object castilloDePiedra {
-    //var property position = game.at(0,1)
+    var property position = game.at(1,1)
     const cofre = []
 
     method image(){
